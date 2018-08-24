@@ -1,0 +1,9 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'github.com/ogheorghies/demo-ci-1', '.']
+  timeout: 500s
+
+artifacts:
+  objects:
+    location: gs://demo-ci-1
+    paths: demo-ci-1
