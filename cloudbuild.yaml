@@ -1,5 +1,3 @@
 steps:
-- name: 'rikorose/gcc-cmake'
-  args: ['cmake', '.']
-- name: 'comodal/alpine-gcc-make'
-  args: ['make']
+- name: 'gcr.io/github-build-1/ogheorghies-debian-cxx-cmake-make'
+  args: ['bash', '-c', '"cmake . && make"']
