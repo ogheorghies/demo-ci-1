@@ -4,5 +4,5 @@ steps:
 
 artifacts:
   objects:
-    location: 'gs://github-build-1'
+    location: 'gs://demo-ci-1'
     paths: ['demo-ci-1']
